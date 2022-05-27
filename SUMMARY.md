@@ -4,7 +4,7 @@
 
 ## Elixir fundamentals
 
-- [Install Elixir](./install-elixir.md)
+- [Install Elixir](./install_elixir.md)
 - [Hello, World](./lib/lewt/hello_world.livemd)
 
 ## Erlang/OTP fundamentals
