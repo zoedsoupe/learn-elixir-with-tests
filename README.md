@@ -1,4 +1,4 @@
-<!-- README START -->
+<!-- CONTENT START -->
 
 # Learn Elixir with Tests
 
@@ -55,4 +55,4 @@ Add issues/submit PRs [here](https://github.com/zoedsoupe/learn-elixir-with-test
 
 [BSD3-Clause license](./LICENSE)
 
-<!-- README END -->
+<!-- CONTENT END -->

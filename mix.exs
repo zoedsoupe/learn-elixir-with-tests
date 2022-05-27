@@ -42,7 +42,10 @@ defmodule LEWT.MixProject do
   end
 
   defp aliases do
-    [docs: ["docs", &copy_images/1, &create_livebook/1]]
+    [
+      docs: ["docs", &copy_images/1],
+      "livebook.gen": [&create_livebook/1]
+    ]
   end
 
   defp copy_images(_) do
