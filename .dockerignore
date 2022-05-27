@@ -1,0 +1,11 @@
+**/.git
+.gitignore
+.editorconfig
+.github
+Dockerfile*
+README.md
+/_build/
+/deps/
+flake.*
+/.direnv/
+/.nix-*/
