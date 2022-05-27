@@ -2,7 +2,7 @@ defmodule LEWT.MixProject do
   use Mix.Project
 
   @name "Learn Elixir with Tests"
-  @extras ~w(CONTRIBUTING LICENSE README)
+  @extras ~w(CONTRIBUTING LICENSE README.md)
   @source_url "https://github.com/zoedsoupe/learn-elixir-with-tests"
 
   def project do
