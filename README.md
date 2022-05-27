@@ -1,3 +1,5 @@
+<!-- README START -->
+
 # Learn Elixir with Tests
 
 ## Formats
@@ -25,7 +27,7 @@ _TODO_
 
 ## Contributing
 
-- Follow [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines
+- Follow [CONTRIBUTING](./CONTRIBUTING) for guidelines
 - Additional ideas or suggestions? Create an issue
 
 ## Background
@@ -51,4 +53,6 @@ Note that as this project is also build with [LiveBook](https://github.com/liveb
 
 Add issues/submit PRs [here](https://github.com/zoedsoupe/learn-elixir-with-tests) or [tweet me @zoedsoupe](https://twitter.com/zoedsoupe)
 
-[BSD3-Clause license](./LICENSE.md)
+[BSD3-Clause license](./LICENSE)
+
+<!-- README END -->
