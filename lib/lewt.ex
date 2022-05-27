@@ -5,7 +5,7 @@ defmodule LEWT.DocParser do
   that is sandwiched by `markdown_delimiters/0`.
 
   ## Example
-      iex> read_markdown!("./README.md")
+      iex> read_markdown!("./README")
       "README.md Content"
   """
   def read_markdown!(path) do
@@ -29,7 +29,7 @@ defmodule LEWT.DocParser do
 end
 
 defmodule LEWT do
-  @external_resource Path.expand("./README.md")
+  @external_resource Path.expand("./README")
 
-  @moduledoc LEWT.DocParser.read_markdown!("./README.md")
+  @moduledoc LEWT.DocParser.read_markdown!("./README")
 end

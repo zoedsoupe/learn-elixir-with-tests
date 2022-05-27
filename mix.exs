@@ -2,7 +2,7 @@ defmodule LEWT.MixProject do
   use Mix.Project
 
   @name "Learn Elixir with Tests"
-  @extras ~w(CONTRIBUTING LICENSE)
+  @extras ~w(CONTRIBUTING LICENSE README)
   @source_url "https://github.com/zoedsoupe/learn-elixir-with-tests"
 
   def project do
@@ -37,7 +37,8 @@ defmodule LEWT.MixProject do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", runtime: false, only: [:docs, :dev]},
-      {:livebook_helpers, ">= 0.0.0", only: [:docs, :dev]}
+      {:livebook_helpers, ">= 0.0.0", only: [:docs, :dev]},
+      {:credo, "~> 1.6", only: [:dev, :test], runtime: false}
     ]
   end
 
